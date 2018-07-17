@@ -1,9 +1,6 @@
 /**
-   The class represents a simple text based graphics device - the console.
-   All drawing is done using regular ascii characters. The drawing
-   operations place the origin (0, 0) in the upper left corner of the
-   display, with x representing the horizontal axis, positive to the right,
-   and y representing the vertical axis, positive DOWN.
+   The class represents a simple text based graphics device using ascii 
+   characters. The drawing places (0, 0) upper left corner of the
  */
 class ConsoleGraphics implements TGraphics {
     private char[][] display;
@@ -11,8 +8,6 @@ class ConsoleGraphics implements TGraphics {
     /**
        Construct a graphics object for a console with the specified 
        dimensions.
-       @param width - the width of the drawable area in characters.
-       @param height - the height of the drawable area in characters.
      */
     ConsoleGraphics(int width, int height) {
 	this.width = width;
@@ -22,10 +17,6 @@ class ConsoleGraphics implements TGraphics {
     }
     /**
        Draw a line from (x1, y1) to (x2, y2).
-       @param x1 - x coordinate of first point.
-       @param y1 - y coordinate of first point.
-       @param x2 - x coordinate of second point.
-       @param y2 - y coordinate of second point.
      */
     public void drawLine(int x1, int y1, int x2, int y2) {
       // use helper methods to do the drawing
@@ -37,9 +28,6 @@ class ConsoleGraphics implements TGraphics {
     /**
        Draw a horizontal line of the specified length, with (x1, y1) 
        as the left end.
-       @param x1 - x coordinate of left end of the line.
-       @param y1 - y coordinate of left end of the line.
-       @param length - the length of the line.
      */
     public void drawHorizontalLine(int x1, int y1, int length) {
 	for(int x = x1; x < x1+length; x++) {
@@ -54,9 +42,6 @@ class ConsoleGraphics implements TGraphics {
     /**
        Draw a vertical line of the specified length, with (x1, y1) 
        as the upper end.
-       @param x1 - x coordinate of upper end of the line.
-       @param y1 - y coordinate of upper end of the line.
-       @param length - the length of the line.
      */
     public void drawVerticalLine(int x1, int y1, int length) {
 	for(int y = y1; y < y1+length; y++) {
@@ -106,10 +91,6 @@ class ConsoleGraphics implements TGraphics {
 
     /**
        Draw a line assuming that |x1 - x2| >= |y1 - y2|.
-       @param x1 - x coordinate of first point.
-       @param y1 - y coordinate of first point.
-       @param x2 - x coordinate of second point.
-       @param y2 - y coordinate of second point.
      */
     private void drawLineLongX(int x1, int y1, int x2, int y2) {
 	// make sure x1 < x2, if not, swap the points
@@ -139,10 +120,6 @@ class ConsoleGraphics implements TGraphics {
 
     /**
        Draw a line assuming that |x1 - x2| <= |y1 - y2|.
-       @param x1 - x coordinate of first point.
-       @param y1 - y coordinate of first point.
-       @param x2 - x coordinate of second point.
-       @param y2 - y coordinate of second point.
      */
     void drawLineLongY(int x1, int y1, int x2, int y2) {
 	// make sure y1 <= y2, if not, swap the points
