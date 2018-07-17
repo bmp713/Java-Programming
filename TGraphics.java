@@ -1,8 +1,5 @@
 /**
-   This interface represents a simple graphics device. You must assume
-   that the device will only remember what has been drawn on it up
-   until the next render() command. A subsequent render() without any
-   intervening drawXXX() commands will just draw a blank display.
+   This interface represents a simple graphics device. 
  */
 interface TGraphics {
     /**
