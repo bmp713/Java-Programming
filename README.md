@@ -1,2 +1,2 @@
 # Java-Programming
-Java Programs using OOP
+Java Graphics Programs using OOP
