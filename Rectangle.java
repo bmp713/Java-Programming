@@ -1,5 +1,5 @@
 // Brandon Piper
-// cmps109 Winter 2005
+// cmps109 
 // Program Project #3
 
 /*  Rectangle.class:
