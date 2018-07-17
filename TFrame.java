@@ -4,14 +4,11 @@
 interface TFrame {
     /**
        Add a shape to this frame.
-       @param shape - the shape to add.
      */
     void add(Shape shape);
 
     /**
        Remove a shape from this frame.
-       @param shape - the shape to remove.
-       @returns true if the shape was in the frame, false o/w.
      */
     boolean remove(Shape shape);
 
