@@ -1,6 +1,4 @@
 // Brandon Piper
-// cmps109
-// Program Project #3
 
 /*  Line.class:
  *      The Line class implements the interface Shape.
