@@ -1,6 +1,4 @@
 // Brandon Piper
-// cmps109
-// Program Project #3
 
 /*  Frame.class:
  *     The Frame class implements the interface TFrame.
