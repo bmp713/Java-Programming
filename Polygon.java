@@ -1,6 +1,4 @@
 // Brandon Piper
-// cmps109
-// Program Project #3
 
 /*  Polygon.class:
  *      The polygon class implements the interface Shape.
