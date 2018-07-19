@@ -1,6 +1,4 @@
 // Brandon Piper
-// cmps109 
-// Program Project #3
 
 /*  GraphicsTest.java:
  *      This class tests all of the Shape classes and
