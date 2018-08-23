@@ -6,11 +6,6 @@
  *      various frames and Shapes within the frames
  *      Allows the user to add or remove different
  *      elements in the frames.
- *
- *  Note to grader:
- *      I have tested this code very thoroughly and it seems
- *      to work perfectly as long as the input is always valid.
- *      It will crash if any command is missing an argument.
  */
 
 import tio.*;
